@@ -1,2 +1,2 @@
 # RUBIK'S-CUBE
-Rubics cube with three.js
+Rubik's cube with three.js
