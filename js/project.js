@@ -13,8 +13,8 @@ class Project{
         //CONTROL SETUP
         this.controls = new THREE.OrbitControls(this.camera, this.renderer.domElement)
         this.controls.target = new THREE.Vector3(0, 0, 0)
-        //this.controls.autoRotate = true
-        //this.controls.autoRotateSpeed = 6
+        this.controls.autoRotate = true
+        this.controls.autoRotateSpeed = 6
 
         //ALL RUBICSCUBE OBJECTS
         this.rubicsCubes = []

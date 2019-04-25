@@ -17,7 +17,7 @@ class RubicsCube{
         this.rotationLayer = null //0 or this.cubeSize-1
         this.rotationGroup = new THREE.Group()
         this.rotationCounter = 0
-        this.speedOfRotation = 10
+        this.speedOfRotation = 20
 
         //SCRAMBLING
         this.scrambleMode = true
