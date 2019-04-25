@@ -1,4 +1,4 @@
-class RubicsCube{
+class RubiksCube{
     constructor(scene, cubeSize, centerPosition){
         this.scene = scene
 

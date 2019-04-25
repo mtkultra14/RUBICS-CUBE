@@ -16,8 +16,8 @@ class Project{
         this.controls.autoRotate = true
         this.controls.autoRotateSpeed = 6
 
-        //ALL RUBICSCUBE OBJECTS
-        this.rubicsCubes = []
+        //ALL rubiksCUBE OBJECTS
+        this.rubiksCubes = []
         
         //SOME BASIC GUIDELINES
         this.scene.add(new THREE.AxesHelper(100))
@@ -32,8 +32,8 @@ class Project{
         this.renderer.render(this.scene, this.camera)
     }
     update(){
-        for(let rubicsCube of this.rubicsCubes){
-            rubicsCube.update()
+        for(let rubiksCube of this.rubiksCubes){
+            rubiksCube.update()
         }
     }
     run(){
@@ -43,8 +43,8 @@ class Project{
         this.render()
     }
     addCube(size, centerPosition){
-        let newCube = new RubicsCube(this.scene, size, centerPosition)
+        let newCube = new rubiksCube(this.scene, size, centerPosition)
         newCube.create()
-        this.rubicsCubes.push(newCube)
+        this.rubiksCubes.push(newCube)
     }
 }

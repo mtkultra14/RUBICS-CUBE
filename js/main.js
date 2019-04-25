@@ -13,7 +13,6 @@ function resetInputs(){
 }
 createCubeButton.addEventListener("click", function(){
     if(!addCubeMenu.hidden){
-        console.log("Hello")
         project.addCube(parseInt(sizeInput.value), new THREE.Vector3(parseInt(xInput.value), parseInt(yInput.value), parseInt(zInput.value)))
     }
     addCubeMenu.hidden = !addCubeMenu.hidden
