@@ -1,2 +1,2 @@
-# RUBICS-CUBE
-Rubics cube with three.js
+# RUBIK'S-CUBE
+Rubik's cube with three.js
