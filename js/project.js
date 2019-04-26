@@ -43,7 +43,7 @@ class Project{
         this.render()
     }
     addCube(size, centerPosition){
-        let newCube = new rubiksCube(this.scene, size, centerPosition)
+        let newCube = new RubiksCube(this.scene, size, centerPosition)
         newCube.create()
         this.rubiksCubes.push(newCube)
     }
